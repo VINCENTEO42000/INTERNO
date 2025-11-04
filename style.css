@@ -16,6 +16,16 @@
 
 /*----------------------------------------------------------------------*/
 
+/* CHAGEMENT DE FAMILLE DE POLICE*/
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*----------------------------------------------------------------------*/
+
 /* CLASSES FONCTIONNLLES (la classe fait ce qu'elle dit) FLEX BOX */
 
 /*rendre flexible un parent = aligner ses enfants */
@@ -45,8 +55,45 @@
     align-items: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-justify: inter-character;
+}
+
 .margin-top-100 {
     margin-top: 100px;
+
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-250 {
+    margin-top: 250px;
+}
+
+.margin-left-100 {
+    margin-left: 100px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
 }
 
 /*----------------------------------------------------------------------*/
@@ -59,18 +106,22 @@ a {
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
 }
 
 header ul {
     list-style: none;
 }
 
+h3 {
+    font-size: x-large;
+}
+
 /*----------------------------------------------------------------------*/
 
 /*classe bouton*/
 .btn {
-    background-color: gray;
+    background-color: black;
     border-radius: 5px;
     color: white;
     padding: 5px 15px;
@@ -88,6 +139,10 @@ header ul {
 /*----------------------------------------------------------------------*/
 
 /* CLASSES DE DIMENSISONS */
+.w-10 {
+    width: 10%;
+}
+
 .w-100 {
     width: 100%;
 }
@@ -110,6 +165,119 @@ header ul {
 
 .w-50 {
     width: 50%;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*balise spéciale*/
+span.goldy {
+    color: goldenrod;
+}
+
+span.goldyProjet {
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.bgred {
+    background-color: red;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* section hero */
+.section-hero {
+    background-image: url(asset/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vH;
+    border-radius: 0 0 0 180px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* section CONTACT */
+
+.contact {
+    border-radius: 0 250px 0 100px;
+}
+
+.call {
+    border-radius: 50%;
+    background-color: rgb(227, 210, 166);
+    background-size: cover;
+    background-position: center;
+    background-size: 5%;
+    background-repeat: no-repeat;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* section CONFIANCE */
+
+.section-confiance {
+    background-color: rgb(234, 218, 218);
+    padding: 30px;
+}
+
+.utilisateur {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.card-utilisateur {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* section CONFIANCE */
+
+.section-fournisseur {
+    padding: 30px;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------*/
+
+/* section nos projets */
+
+.coinHD {
+    border-radius: 0 50px 0 0;
+}
+
+.coinHG {
+    border-radius: 50px  0 0 0;
+}
+
+.coinBG {
+    border-radius:0 0 0 50px ;
+}
+
+.coinBD {
+    border-radius: 0 0 50px 0 ;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* section communauté */
+
+.section-communaute {
+    background-color: rgb(44, 42, 42);
+    color: azure;
+    padding: 20px;
+}
+
+input {
+    margin: 0.4rem 0;
 }
 
 /*----------------------------------------------------------------------*/
