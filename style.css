@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* dans un container on un a max-width et un width 100% */
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+/*----------------------------------------------------------------------*/
+
+/* CLASSES FONCTIONNLLES (la classe fait ce qu'elle dit) FLEX BOX */
+
+/*rendre flexible un parent = aligner ses enfants */
+/* à attribuer au parent*/
+.flex {
+    display: flex;
+    /*rendre flexible un parent = aligner ses enfants */
+    flex-wrap: wrap;
+    /* revient à la ligne */
+}
+
+/* mettre un espace entre les enfant*/
+.space-between {
+    justify-content: space-between;
+}
+
+/* en plus un espace sur les côtés*/
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ce que j'apelle les inchangés*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*classe bouton*/
+.btn {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.btn-primary {
+    font-size: 20px;
+}
+
+.btn-secondary {
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* CLASSES DE DIMENSISONS */
+.w-100 {
+    width: 100%;
+}
+
+.w-23 {
+    width: 23%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/*----------------------------------------------------------------------*/
