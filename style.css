@@ -84,6 +84,10 @@
     margin-bottom: 10px;
 }
 
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
 .margin-top-250 {
     margin-top: 250px;
 }
@@ -134,7 +138,7 @@ h3 {
     color: white;
     padding: 5px 15px;
     display: inline-block;
-    }
+}
 
 .btn-primary {
     font-size: 20px;
@@ -142,6 +146,16 @@ h3 {
 
 .btn-secondary {
     font-size: 14px;
+}
+
+.btn-tri {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 20px;
+
 }
 
 /*----------------------------------------------------------------------*/
@@ -199,6 +213,7 @@ span.goldyProjet {
     font-size: 30px;
     display: inline-block;
     text-align: center;
+    
 
 }
 
@@ -229,9 +244,14 @@ span.goldyProjet {
 .call {
     border-radius: 50%;
     background-color: rgb(227, 210, 166);
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    padding: 10px;
 
+}
+
+.call img {
+    width: 100%;
 }
 
 /*----------------------------------------------------------------------*/
@@ -257,7 +277,7 @@ span.goldyProjet {
 
 /*----------------------------------------------------------------------*/
 
-/* section CONFIANCE */
+/* section fournisseur */
 
 .section-fournisseur {
     padding: 30px;
@@ -275,15 +295,15 @@ span.goldyProjet {
 }
 
 .coinHG {
-    border-radius: 50px  0 0 0;
+    border-radius: 50px 0 0 0;
 }
 
 .coinBG {
-    border-radius:0 0 0 50px ;
+    border-radius: 0 0 0 50px;
 }
 
 .coinBD {
-    border-radius: 0 0 50px 0 ;
+    border-radius: 0 0 50px 0;
 }
 
 /*----------------------------------------------------------------------*/
@@ -303,14 +323,41 @@ input {
 /*----------------------------------------------------------------------*/
 /* footer */
 
-.footer {
+.footer {}
 
-    padding : 10px 100px 100px 100px
+#footer {
+    height: 1px;
+    width: 100%;
+    background-color: gray;
 }
 
-#footer{
-   height:1px;
-   width:100%;
-   background-color : gray;
+/*----------------------------------------------------------------------*/
+
+/* PAGE DEVIS */
+
+.page-devis {
+    background-color: black;
 }
+
+.card-devis {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+
+label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+
+
 /*----------------------------------------------------------------------*/

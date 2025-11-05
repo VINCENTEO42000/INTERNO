@@ -8,24 +8,62 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+
+<body class="page-devis">
+    <header>
+        <div class="justify-content margin-left-100 margin-bottom-100 margin-top-100">
+            <a href="index.html" class="btn-tri">BACK</a>
+        </div>
+    </header>
+
     <main>
-    
-    <h2>Mon devis gratuit</h2>
-    <p>Remplissez le formualire ci dessous , décrivez votre projet nous vous contacterons dans les plus brefs délais</p>
+        <section class="card-devis w-50 margin-left-100 margin-bottom-100">
 
-    <!-- div contact client -->
-    <div>
-<div></div>
-<div></div>
+            <h2>Mon devis gratuit</h2>
+            <p>Remplissez le formualire ci dessous , décrivez votre projet nous vous contacterons dans les plus brefs
+                délais</p>
 
-    </div>
-<!-- div choix client -->
-    <div>
-        <div></div>
-        <div></div>
+            <!-- div contact client -->
+            <div>
+                <div>
+                    <p>votre non client</p>
+                    <input type="text" class="margin-top-25" required minlength="10" maxlength="50" size="15" />
+                </div>
+                <div>
+                    <p>votre email</p>
+                    <input type="text" class="margin-top-25" required minlength="10" maxlength="50" size="15" />
+                </div>
 
-    </div>
+            </div>
+            <!-- div choix client -->
+            <div>
+
+
+                <label for="choix">choisir</label>
+
+                <select name="type" id="choix">
+                    <option value="">--merci de choisir--</option>
+                    <option value="maison">maison</option>
+                    <option value="appartement">appartement</option>
+
+
+
+
+
+
+
+
+                    <div>
+                        <p>superficie du projet</p>
+                        <div></div>
+                    </div>
+            </div>
+            
+            <div>
+                <p>Décrivez brièvement votre projet</p>
+                <input type="text" class="margin-top-25" required minlength="10" maxlength="50" size="50" />
+            </div>
+        </section>
 
     </main>
 
